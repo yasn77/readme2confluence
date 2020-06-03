@@ -87,6 +87,5 @@ echo /tmp/README.md | readme2confluence
 
 ### Testing
 
-At the moment there are no tests as the code is pretty simple and is more of a wrapper around
-https://atlassian-python-api.readthedocs.io/en/latest/confluence.html.
+At the moment there are no tests as the code is pretty simple and is more of a wrapper around https://atlassian-python-api.readthedocs.io/confluence.html
 Eventually we should look to add tests.
