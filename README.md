@@ -35,13 +35,13 @@ Options:
 Create a page in `DevOps` space called `foo` under `Papa` parent, using `/foo/README.md` file
 
 ```bash
-readme2confluence --url https://xxxx.atlassian.net -u 'yasser.saleemi@gmail.com' -p $ATLASSIAN_API_TOKEN --space DevOps -t foo --parent "Papa" -f /foo/README.md
+readme2confluence --url https://xxxx.atlassian.net -u 'xxx.xxx@xxxx.xxx' -p $ATLASSIAN_API_TOKEN --space DevOps -t foo --parent "Papa" -f /foo/README.md
 ```
 
 Same as above but use environment variables
 ```bash
 README2CONFLUENCE_URL='https://xxxx.atlassian.net'
-README2CONFLUENCE_USERNAME='yasser.saleemi@gmail.com'
+README2CONFLUENCE_USERNAME='xxx.xxx@xxxx.xxx'
 README2CONFLUENCE_PASSWORD=$ATLASSIAN_API_TOKEN
 README2CONFLUENCE_SPACE='DevOps'
 README2CONFLUENCE_TITLE='foo'
@@ -55,7 +55,7 @@ Same as above, but use STDIN
 
 ```bash
 README2CONFLUENCE_URL='https://xxxx.atlassian.net'
-README2CONFLUENCE_USERNAME='yasser.saleemi@gmail.com'
+README2CONFLUENCE_USERNAME='xxx.xxx@xxxx.xxx'
 README2CONFLUENCE_PASSWORD=$ATLASSIAN_API_TOKEN
 README2CONFLUENCE_SPACE='DevOps'
 README2CONFLUENCE_TITLE='foo'
@@ -77,7 +77,7 @@ Same as above but use pipe
 
 ```bash
 README2CONFLUENCE_URL='https://xxxx.atlassian.net'
-README2CONFLUENCE_USERNAME='yasser.saleemi@gmail.com'
+README2CONFLUENCE_USERNAME='xxx.xxx@xxxx.xxx'
 README2CONFLUENCE_PASSWORD=$ATLASSIAN_API_TOKEN
 README2CONFLUENCE_SPACE='DevOps'
 README2CONFLUENCE_TITLE='foo'
