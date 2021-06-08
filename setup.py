@@ -19,7 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
-    install_requires=['markdown2==2.3.9', 'atlassian-python-api==1.14.2', 'Click==7.0'],
+    install_requires=['markdown2==2.4.0', 'atlassian-python-api==1.14.2', 'Click==7.0'],
     entry_points={
         'console_scripts': [
             'readme2confluence = readme2confluence.cli:cli'
